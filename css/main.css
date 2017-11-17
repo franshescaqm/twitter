@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Rhodium Libre', serif;
+}
+
+body{
+  background: url(../assets/img/paris.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+header{
+width: 100%;
+height: 80px;
+text-align: center;
+color: white;
+background-color: #2ECCFA;
+}
+
+.intro{
+position: relative;
+left: 60px;
+top: 12px;
+width: 400px;
+height: 200px;
+background-color: white;
+}
+
+h1{
+  position: relative;
+  top: 20px;
+  border: 0px;
+  margin: 0px;
+}
+
+footer{
+  position: relative;
+  top: 60px;
+}
