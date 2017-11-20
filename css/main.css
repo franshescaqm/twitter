@@ -5,11 +5,13 @@
   font-family: 'Rhodium Libre', serif;
 }
 
+/* Insertando imagen de fondo*/
 body{
-  background: url(../assets/img/paris.jpg) no-repeat center center fixed;
+  background: url(../assets/img/europe.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
+/*Titulo principal*/
 header{
 width: 100%;
 height: 80px;
@@ -18,12 +20,14 @@ color: white;
 background-color: #2ECCFA;
 }
 
+/*Recuadro informativo en la derecha*/
 .intro{
 position: relative;
-left: 60px;
-top: 12px;
-width: 400px;
-height: 200px;
+left: 200px;
+top: 20px;
+width: 480px;
+height: 250px;
+border-radius: 5px;
 background-color: white;
 }
 
@@ -36,5 +40,48 @@ h1{
 
 footer{
   position: relative;
-  top: 60px;
+  top: 80px;
+}
+
+/*Donde empieza el formulario*/
+form{
+  display: inline-block;
+  outline: none;
+}
+
+#tweeting {
+position: relative;
+left: 55em;
+bottom: 230px;
+width: 500px;
+height: 330px;
+border-radius: 10px;
+background-color: white;
+}
+/*Donde se inserta texto*/
+textarea {
+  width: 500px;
+  height: 230px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+#boton{
+  color: white;
+  padding: 10px;
+  margin-left: 21px;
+  border-radius: 8px;
+  font-weight: bold;
+  background: #0099f5;
+}
+
+input[placeholder]{
+  border: none;
+}
+
+#caracteres{
+  width: 35px;
+  text-align: center;
+  margin-left: 330px;
 }
