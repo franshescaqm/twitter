@@ -7,7 +7,7 @@
 
 /* Insertando imagen de fondo*/
 body{
-  background: url(../assets/img/europe.jpg) no-repeat center center fixed;
+  background: url(../assets/img/Europe.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
