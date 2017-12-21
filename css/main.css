@@ -13,15 +13,15 @@ body{
 
 /*Titulo principal*/
 header{
-width: 100%;
-height: 80px;
+/*width: 100%;
+height: 80px;*/
 text-align: center;
 color: white;
 background-color: #2ECCFA;
 }
 
 /*Recuadro informativo en la derecha*/
-.intro{
+.intro {
 position: relative;
 left: 200px;
 top: 20px;
@@ -32,15 +32,14 @@ background-color: white;
 }
 
 h1{
-  position: relative;
-  top: 20px;
-  border: 0px;
-  margin: 0px;
+
+  border: 0%;
+  margin: 0%;
 }
 
 footer{
   position: relative;
-  top: 80px;
+  bottom: 0.1em;
 }
 
 /*Donde empieza el formulario*/
@@ -50,38 +49,37 @@ form{
 }
 
 #tweeting {
-position: relative;
+/*position: relative;
 left: 55em;
-bottom: 230px;
-width: 500px;
+bottom: 230px;*/
+width: 15em;
 height: 330px;
 border-radius: 10px;
 background-color: white;
 }
 /*Donde se inserta texto*/
 textarea {
-  width: 500px;
-  height: 230px;
+  /*width: 350em;*/
+  height: 12em;
   font-size: 20px;
-  border-radius: 10px;
   border: none;
 }
 
 #boton{
   color: white;
-  padding: 10px;
+  background: #0099f5;
+  /*padding: 2em;
   margin-left: 21px;
   border-radius: 8px;
-  font-weight: bold;
-  background: #0099f5;
-}
+  font-weight: bold;*/
+ }
 
 input[placeholder]{
   border: none;
+  
 }
 
-#caracteres{
-  width: 35px;
-  text-align: center;
-  margin-left: 330px;
+#caracteres {
+  margin-left: 8em;
+  margin-bottom: 8em;
 }

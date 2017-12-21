@@ -1,4 +1,4 @@
-window.addEventListener('load', function(event) {
+/*window.addEventListener('load', function(event) {
   var tweetContainer = document.getElementById('tweeting');
   var textingArea = tweetContainer.firstElementChild;
   var boton = document.getElementById('boton');
@@ -7,4 +7,5 @@ window.addEventListener('load', function(event) {
       var newElementContainer = document.createElement('div');
     var newTextContainer = newElementContainer.createTextNode('');
   });
-});
+});*/
+
